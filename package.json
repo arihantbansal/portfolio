@@ -1,18 +1,25 @@
 {
-	"name": "personal-website-v3-next",
+	"name": "personal-website-v4-next",
+	"description": "Portfolio site built with TypeScript + Next.js",
 	"author": "arihantbansal",
+	"version": "0.1.0",
 	"private": true,
 	"scripts": {
+		"analyze": "ANALYZE=true next build",
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"type-check": "tsc",
+		"format": "prettier --write \"**/*.{css,js,json,jsx,ts,tsx,vue}\""
 	},
 	"dependencies": {
 		"@chakra-ui/react": "^2.1.2",
 		"@emotion/react": "^11.9.0",
 		"@emotion/styled": "^11.8.1",
+		"@fontsource/ibm-plex-sans": "^4.5.11",
 		"framer-motion": "^6.3.6",
+		"inter-ui": "^3.19.3",
 		"next": "^12.1.6",
 		"next-seo": "^4.29.0",
 		"react": "^18.1.0",
@@ -23,6 +30,8 @@
 		"@types/react": "17.0.38",
 		"eslint": "8.6.0",
 		"eslint-config-next": "12.0.8",
+		"eslint-plugin-chakra-ui": "^0.6.4",
+		"prettier": "^2.7.1",
 		"typescript": "4.5.4"
 	}
 }
