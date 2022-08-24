@@ -11,7 +11,7 @@
 		"start": "next start",
 		"lint": "next lint",
 		"type-check": "tsc",
-		"format": "prettier --write \"**/*.{css,js,json,jsx,ts,tsx,vue}\""
+		"format": "prettier --write \"**/*.{css,js,json,jsx,ts,tsx}\""
 	},
 	"dependencies": {
 		"@chakra-ui/react": "^2.1.2",
@@ -23,7 +23,8 @@
 		"next": "^12.1.6",
 		"next-seo": "^4.29.0",
 		"react": "^18.1.0",
-		"react-dom": "^18.1.0"
+		"react-dom": "^18.1.0",
+		"react-icons": "^4.4.0"
 	},
 	"devDependencies": {
 		"@types/node": "17.0.14",
