@@ -2,6 +2,7 @@ import { Box, Flex, Text, Heading } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import { CustomLink } from "../components/CustomLink";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
 	return (
@@ -35,6 +36,7 @@ const Home: NextPage = () => {
 						</Text>
 					</Text>
 				</Box>
+				<Footer />
 			</Box>
 		</>
 	);

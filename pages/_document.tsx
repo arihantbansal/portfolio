@@ -10,7 +10,7 @@ export default class Document extends NextDocument {
 					<meta name="description" content="arihant's home page" />
 					<link rel="icon" href="/favicon.ico" />
 				</Head>
-				<body>
+				<body style={{ background: "#000" }}>
 					<ColorModeScript initialColorMode={theme.config.initialColorMode} />
 					<Main />
 					<NextScript />
