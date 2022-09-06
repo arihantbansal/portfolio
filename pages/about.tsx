@@ -3,13 +3,13 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { CustomLink } from "../components/CustomLink";
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
 	return (
 		<>
 			<Head>
 				<title>Arihant</title>
 			</Head>
-			<Box p="12">
+			<Box p="4">
 				<Flex alignItems="center" justifyContent="space-between" mx="auto">
 					<Heading as="h1" size="lg">
 						Arihant Bansal
@@ -17,10 +17,7 @@ const Home: NextPage = () => {
 				</Flex>
 				<Box my="16">
 					<Text as="h2" fontSize="3xl" fontWeight="normal">
-						buildoor. engineering undergrad at bits pilani, india.
-					</Text>
-					<br />
-					<Text as="h2" fontSize="3xl" fontWeight="normal">
+						buildoor. <br />
 						passionate about{" "}
 						<Text as="span" bgGradient="linear-gradient(to right, #56ab2f, #a8e063)" bgClip="text">
 							privacy
@@ -40,4 +37,4 @@ const Home: NextPage = () => {
 	);
 };
 
-export default Home;
+export default About;
