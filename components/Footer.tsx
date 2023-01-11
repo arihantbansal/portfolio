@@ -19,6 +19,6 @@ const Footer: NextPage = () => {
 			</HStack>
 		</>
 	);
-};s
+};
 
 export default Footer;
