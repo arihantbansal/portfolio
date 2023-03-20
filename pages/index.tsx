@@ -1,16 +1,18 @@
-import { Box, Text, Heading, Divider } from "@chakra-ui/react";
+import { Box, Text, Heading, Divider, useMediaQuery } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import { CustomLink } from "../components/CustomLink";
 
 const Home: NextPage = () => {
+	const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
+
 	return (
 		<>
 			<Head>
 				<title>Arihant</title>
 				<meta property="og:title" content="Arihant" key="title" />
 			</Head>
-			<Box p="12" bg="black" minH="100vh" maxW="40vw">
+			<Box p="12" bg="black" minH="100vh" maxW={isLargerThan800 ? "40vw" : ""}>
 				<Box paddingBottom="5">
 					<Heading>gm!</Heading>
 					<br />
@@ -48,7 +50,7 @@ const Home: NextPage = () => {
 					</Text>
 				</Box>
 				<Divider />
-				<Box paddingTop="5">
+				<Box paddingTop="5" paddingBottom="5">
 					<Heading>buidls</Heading>
 					<br />
 					<Box paddingY={"2"}>
