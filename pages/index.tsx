@@ -79,6 +79,17 @@ const Home: NextPage = () => {
 						</Text>
 					</Box>
 				</Box>
+				<Divider />
+				<Box paddingTop="5">
+					<iframe
+						style={{ borderRadius: "12px", backgroundColor: "black" }}
+						src="https://open.spotify.com/embed/playlist/6pFDVSoFjX5f0jQnnXbwhA?utm_source=generator&theme=0"
+						width="30%"
+						height="352"
+						frameBorder="0"
+						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+						loading="lazy"></iframe>
+				</Box>
 			</Box>
 		</>
 	);
