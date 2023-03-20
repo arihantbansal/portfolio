@@ -51,7 +51,33 @@ const Home: NextPage = () => {
 				<Box paddingTop="5">
 					<Heading>buidls</Heading>
 					<br />
-					<Text></Text>
+					<Box paddingY={"2"}>
+						<Text>
+							<CustomLink href="https://github.com/deaudit/deaudit">NiftyClick</CustomLink> -
+							capture your memories as nfts on solana. easy as click, edit, mint. won a grant by
+							solana foundation.
+						</Text>
+					</Box>
+					<Box paddingY={"2"}>
+						<Text>
+							<CustomLink href="https://github.com/deaudit/deaudit">DeAudit</CustomLink> - an
+							onchain decentralized smart contract audit marketplace. get paid to find
+							vulnerabilities in smart contracts. won prizes @ polygon buidlit &apos;22 and filecoin
+							microgrant.
+						</Text>
+					</Box>
+					<Box paddingY={"2"}>
+						<Text>
+							<CustomLink href="https://gmi-name-service.vercel.app/">gmi name service</CustomLink>{" "}
+							- get your own .gmi tld on polygon chain.
+						</Text>
+					</Box>
+					<Box paddingY={"2"}>
+						<Text>
+							<CustomLink href="https://darth-fandom.vercel.app/">darth fandom</CustomLink> -
+							onchain board to share your fav star wars gifs.
+						</Text>
+					</Box>
 				</Box>
 			</Box>
 		</>
