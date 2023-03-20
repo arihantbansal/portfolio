@@ -10,7 +10,7 @@ const Home: NextPage = () => {
 				<title>Arihant</title>
 				<meta property="og:title" content="Arihant" key="title" />
 			</Head>
-			<Box p="12" bg="black" minH="100vh">
+			<Box p="12" bg="black" minH="100vh" maxW="40vw">
 				<Box paddingBottom="5">
 					<Heading>gm!</Heading>
 					<br />
@@ -84,8 +84,8 @@ const Home: NextPage = () => {
 					<iframe
 						style={{ borderRadius: "12px", backgroundColor: "black" }}
 						src="https://open.spotify.com/embed/playlist/6pFDVSoFjX5f0jQnnXbwhA?utm_source=generator&theme=0"
-						width="30%"
-						height="352"
+						width="100%"
+						height="380"
 						frameBorder="0"
 						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
 						loading="lazy"></iframe>
