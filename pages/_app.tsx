@@ -7,7 +7,7 @@ import theme from "../utils/theme";
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<ChakraProvider theme={theme}>
-			<Flex minH="100vh" direction="column" bgColor="000">
+			<Flex minH="100vh" direction="column" bgColor="black">
 				<Component {...pageProps} />
 			</Flex>
 		</ChakraProvider>

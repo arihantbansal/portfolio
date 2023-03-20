@@ -1,8 +1,7 @@
-import { Box, Flex, Text, Heading, Divider } from "@chakra-ui/react";
+import { Box, Text, Heading, Divider } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import { CustomLink } from "../components/CustomLink";
-import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
 	return (
@@ -21,17 +20,18 @@ const Home: NextPage = () => {
 							Arihant
 						</CustomLink>{" "}
 						- a 20 yr old internet craftsman. just a fancy way to say i build this on the internet.{" "}
-					</Text>
-					<br />
-					<Text>
-						find me on <CustomLink href="https://twitter.com/_arihantbansal">twitter</CustomLink> or{" "}
-						<CustomLink href="https://github.com/arihantbansal">github</CustomLink>.
+						i am passionate about privacy, decentralization and distributed systems.
 					</Text>
 					<br />
 					<Text>
 						currently building products in web3 while trying to graduate with my bachelors in
 						engineering from{" "}
 						<CustomLink href="https://www.bits-pilani.ac.in/goa">bits pilani</CustomLink>, india.
+					</Text>
+					<br />
+					<Text>
+						find me on <CustomLink href="https://twitter.com/_arihantbansal">twitter</CustomLink> or{" "}
+						<CustomLink href="https://github.com/arihantbansal">github</CustomLink>.
 					</Text>
 					<br />
 					<Text color="gray">
@@ -48,7 +48,11 @@ const Home: NextPage = () => {
 					</Text>
 				</Box>
 				<Divider />
-				<Box></Box>
+				<Box paddingTop="5">
+					<Heading>buidls</Heading>
+					<br />
+					<Text></Text>
+				</Box>
 			</Box>
 		</>
 	);
