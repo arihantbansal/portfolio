@@ -12,3 +12,15 @@ a {
 * {
 	box-sizing: border-box;
 }
+
+.outer-box {
+	padding-right: 3rem;
+	padding-left: 3rem;
+}
+
+@media screen and (min-width: 600px) {
+	.outer-box {
+		padding-right: 32rem;
+		padding-left: 32rem;
+	}
+}

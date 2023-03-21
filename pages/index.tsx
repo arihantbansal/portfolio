@@ -4,8 +4,6 @@ import Head from "next/head";
 import { CustomLink } from "../components/CustomLink";
 
 const Home: NextPage = () => {
-	const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
-
 	return (
 		<>
 			<Head>
@@ -27,7 +25,7 @@ const Home: NextPage = () => {
 				<meta name="twitter:url" content="https://arihantbansal.xyz/" />
 				<meta property="twitter:image" content="%PUBLIC_URL%/image.png" />
 			</Head>
-			<Box p="12" bg="black" minH="100vh" maxW={isLargerThan800 ? "40vw" : ""}>
+			<Box paddingY="12" bg="black" minH="100vh" className="outer-box">
 				<Box paddingBottom="5">
 					<Heading>gm!</Heading>
 					<br />
