@@ -11,6 +11,21 @@ const Home: NextPage = () => {
 			<Head>
 				<title>Arihant</title>
 				<meta property="og:title" content="Arihant" key="title" />
+				<meta name="description" content="Arihant's personal site" />
+				<meta
+					name="keywords"
+					content="Arihant, Arihant Bansal, ariban900, arihantbansal, portfolio, site, personal site, _arihantbansal, arihantbansal.sol, arihantbansal.eth"
+				/>
+				<meta property="og:image" content="%PUBLIC_URL%/image.png" />
+				<meta property="og:title" content="Arihant's personal site" />
+				<meta property="og:type" content="website" />
+				<meta property="og:url" content="https://arihantbansal.xyz/" />
+				<meta property="og:description" content="Arihant's personal site" />
+				<meta name="twitter:card" content="summary" />
+				<meta name="twitter:title" content="Arihant" />
+				<meta name="twitter:description" content="Arihant's personal site" />
+				<meta name="twitter:url" content="https://arihantbansal.xyz/" />
+				<meta property="twitter:image" content="%PUBLIC_URL%/image.png" />
 			</Head>
 			<Box p="12" bg="black" minH="100vh" maxW={isLargerThan800 ? "40vw" : ""}>
 				<Box paddingBottom="5">
