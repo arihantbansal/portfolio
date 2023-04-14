@@ -68,9 +68,9 @@ const Home: NextPage = () => {
 					<br />
 					<Box paddingY={"2"}>
 						<Text>
-							<CustomLink href="https://github.com/deaudit/deaudit">NiftyClick</CustomLink> -
-							capture your memories as nfts on solana. easy as click, edit, mint. won a grant by
-							solana foundation.
+							<CustomLink href="https://github.com/niftyclick">NiftyClick</CustomLink> - capture
+							your memories as nfts on solana. easy as click, edit, mint. won a grant by solana
+							foundation.
 						</Text>
 					</Box>
 					<Box paddingY={"2"}>
