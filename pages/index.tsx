@@ -1,4 +1,4 @@
-import { Box, Text, Heading, Divider, useMediaQuery } from "@chakra-ui/react";
+import { Box, Text, Heading, Divider } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import { CustomLink } from "../components/CustomLink";
@@ -31,22 +31,26 @@ const Home: NextPage = () => {
 					<br />
 					<Text>
 						i&apos;m{" "}
-						<CustomLink href="https://explorer.solana.com/address/GsuyNHX76ZGXwisQ2qSyP6nNUgx2DxNtCQXESVswzC6F">
+						<Text as="span" color="blue.300">
 							Arihant
-						</CustomLink>{" "}
-						- a 20 yr old internet craftsman. just a fancy way to say i build this on the internet.{" "}
-						i am passionate about privacy, decentralization and distributed systems.
+						</Text>{" "}
+						- a software engineer based in India, building blockchain based systems. i am passionate
+						about working on problems related to privacy and distributed systems.
 					</Text>
 					<br />
 					<Text>
-						currently building products in web3 while trying to graduate with my bachelors in
-						engineering from{" "}
+						i&apos;m working as a software engg. intern @{" "}
+						<CustomLink href="https://elusiv.io/">Elusiv</CustomLink>, building Web3’s universal
+						encryption layer. also trying to graduate with my bachelors in engineering, majoring in
+						electrical and electronics, from{" "}
 						<CustomLink href="https://www.bits-pilani.ac.in/goa">bits pilani</CustomLink>, india.
 					</Text>
 					<br />
 					<Text>
 						find me on <CustomLink href="https://twitter.com/_arihantbansal">twitter</CustomLink> or{" "}
-						<CustomLink href="https://github.com/arihantbansal">github</CustomLink>.
+						<CustomLink href="https://github.com/arihantbansal">github</CustomLink>. (or{" "}
+						<CustomLink href="https://linkedin.com/in/arihantbansal">linkedin</CustomLink> if
+						you&apos;re into that.)
 					</Text>
 					<br />
 					<Text color="gray">
@@ -95,16 +99,6 @@ const Home: NextPage = () => {
 					</Box>
 				</Box>
 				<Divider />
-				<Box paddingTop="5">
-					<iframe
-						style={{ borderRadius: "12px", backgroundColor: "black" }}
-						src="https://open.spotify.com/embed/playlist/6pFDVSoFjX5f0jQnnXbwhA?utm_source=generator&theme=0"
-						width="100%"
-						height="380"
-						frameBorder="0"
-						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-						loading="lazy"></iframe>
-				</Box>
 			</Box>
 		</>
 	);
