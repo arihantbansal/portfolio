@@ -39,9 +39,8 @@ const Home: NextPage = () => {
 					</Text>
 					<br />
 					<Text>
-						i&apos;m working as a software engg. intern @{" "}
-						<CustomLink href="https://elusiv.io/">Elusiv</CustomLink>, building Web3’s universal
-						encryption layer. also trying to graduate with my bachelors in engineering, majoring in
+						i&apos;m working as a software engineer @{" "}
+						<CustomLink href="https://elusiv.io/">Elusiv</CustomLink>, building a composable privacy layer for web3. also trying to graduate with my bachelors in engineering, majoring in
 						electrical and electronics, from{" "}
 						<CustomLink href="https://www.bits-pilani.ac.in/goa">bits pilani</CustomLink>, india.
 					</Text>
