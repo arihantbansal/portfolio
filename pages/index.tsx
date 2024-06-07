@@ -39,7 +39,7 @@ const Home: NextPage = () => {
 					</Text>
 					<br />
 					<Text>
-						i&apos;m working as a software engineer @{" "}
+						i work @{" "}
 						<CustomLink href="https://arcium.com/">Arcium</CustomLink>, building the firts
 						parallelized confidential computing network on Solana. also trying to graduate with my
 						bachelors in engineering, majoring in electrical and electronics, from{" "}
