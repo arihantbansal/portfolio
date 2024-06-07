@@ -40,14 +40,15 @@ const Home: NextPage = () => {
 					<br />
 					<Text>
 						i&apos;m working as a software engineer @{" "}
-						<CustomLink href="https://elusiv.io/">Elusiv</CustomLink>, building a composable privacy layer for web3. also trying to graduate with my bachelors in engineering, majoring in
-						electrical and electronics, from{" "}
+						<CustomLink href="https://arcium.com/">Arcium</CustomLink>, building the firts
+						parallelized confidential computing network on Solana. also trying to graduate with my
+						bachelors in engineering, majoring in electrical and electronics, from{" "}
 						<CustomLink href="https://www.bits-pilani.ac.in/goa">bits pilani</CustomLink>, india.
 					</Text>
 					<br />
 					<Text>
-						find me on <CustomLink href="https://twitter.com/_arihantbansal">twitter</CustomLink> or{" "}
-						<CustomLink href="https://github.com/arihantbansal">github</CustomLink>. (or{" "}
+						find me on <CustomLink href="https://x.com/_arihantbansal">x (fka twitter)</CustomLink>{" "}
+						or <CustomLink href="https://github.com/arihantbansal">github</CustomLink>. (or{" "}
 						<CustomLink href="https://linkedin.com/in/arihantbansal">linkedin</CustomLink> if
 						you&apos;re into that.)
 					</Text>
@@ -66,7 +67,7 @@ const Home: NextPage = () => {
 					</Text>
 				</Box>
 				<Divider />
-				<Box paddingTop="5" paddingBottom="5">
+				{/* <Box paddingTop="5" paddingBottom="5">
 					<Heading>buidls</Heading>
 					<br />
 					<Box paddingY={"2"}>
@@ -96,7 +97,7 @@ const Home: NextPage = () => {
 							onchain board to share your fav star wars gifs.
 						</Text>
 					</Box>
-				</Box>
+				</Box> */}
 				<Divider />
 			</Box>
 		</>

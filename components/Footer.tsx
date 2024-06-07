@@ -7,8 +7,8 @@ const Footer: NextPage = () => {
 		<>
 			<Divider />
 			<HStack py="4" spacing="4">
-				<CustomLink href="https://twitter.com/_arihantbansal">
-					<Text>twitter</Text>
+				<CustomLink href="https://x.com/_arihantbansal">
+					<Text>x (fka twitter)</Text>
 				</CustomLink>
 				<CustomLink href="https://github.com/arihantbansal">
 					<Text>github</Text>
