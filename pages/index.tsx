@@ -39,10 +39,10 @@ const Home: NextPage = () => {
 					</Text>
 					<br />
 					<Text>
-						i work @{" "}
-						<CustomLink href="https://arcium.com/">Arcium</CustomLink>, building the first parallelized confidential computing network on Solana. also trying to graduate with my
-						bachelors in engineering, majoring in electrical and electronics, from{" "}
-						<CustomLink href="https://www.bits-pilani.ac.in/goa">bits pilani</CustomLink>, india.
+						i work @ <CustomLink href="https://arcium.com/">Arcium</CustomLink>, the future of
+						decentralized confidential computing. graduated from{" "}
+						<CustomLink href="https://www.bits-pilani.ac.in/goa">bits pilani</CustomLink>, india
+						with a bachelors in engineering, majoring in electrical and electronics.
 					</Text>
 					<br />
 					<Text>
