@@ -41,7 +41,7 @@ const Home: NextPage = () => {
 					<Text>
 						i work @ <CustomLink href="https://arcium.com/">Arcium</CustomLink>, the future of
 						decentralized confidential computing. graduated from{" "}
-						<CustomLink href="https://www.bits-pilani.ac.in/goa">bits pilani</CustomLink>
+						<CustomLink href="https://www.bits-pilani.ac.in/goa">bits pilani</CustomLink>{" "}
 						with a bachelors in engineering, majoring in electrical and electronics.
 					</Text>
 					<br />
