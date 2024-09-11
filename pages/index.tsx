@@ -52,18 +52,6 @@ const Home: NextPage = () => {
 						you&apos;re into that.)
 					</Text>
 					<br />
-					<Text color="gray">
-						<CustomLink
-							href="https://explorer.solana.com/address/GsuyNHX76ZGXwisQ2qSyP6nNUgx2DxNtCQXESVswzC6F"
-							colored={false}>
-							arihantbansal dot sol
-						</CustomLink>{" "}
-						<CustomLink
-							href="https://etherscan.io/address/0xcd1151307f382f9301dabf07f563c93f6547ae06"
-							colored={false}>
-							arihantbansal dot eth
-						</CustomLink>
-					</Text>
 				</Box>
 				<Divider />
 				{/* <Box paddingTop="5" paddingBottom="5">
