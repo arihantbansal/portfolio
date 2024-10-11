@@ -34,13 +34,12 @@ const Home: NextPage = () => {
 						<Text as="span" color="blue.300">
 							Arihant
 						</Text>{" "}
-						- a software engineer based in India, building blockchain based systems. i am passionate
+						- a software engineer based in India, building confidential computing infrastructure. i am passionate
 						about working on problems related to privacy and distributed systems.
 					</Text>
 					<br />
 					<Text>
-						i work @ <CustomLink href="https://arcium.com/">Arcium</CustomLink>, the future of
-						decentralized confidential computing. graduated from{" "}
+						i work @ <CustomLink href="https://arcium.com/">Arcium</CustomLink>, building the next-gen supercomputer for a hyperencrypted internet. graduated from{" "}
 						<CustomLink href="https://www.bits-pilani.ac.in/goa">bits pilani</CustomLink>{" "}
 						with a bachelors in engineering, majoring in electrical and electronics.
 					</Text>
